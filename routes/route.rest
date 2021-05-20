@@ -1,0 +1,24 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/602a0309cdcb691d2404e819
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Maria",
+    "subscribedToChannel": "Desktop Dev"
+}
+
+###
+DELETE http://localhost:3000/subscribers/6029ff2b3d529f0c1832b036
+
+###
+PATCH http://localhost:3000/subscribers/602a01370dcd67143c7f1748
+Content-Type: application/json
+
+{
+    "name": "mmml"
+}
